@@ -1,65 +1,43 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
-
+import "../../Styles/footer.css";
 
 export default function Footer() {
-
+  const year = new Date().getFullYear();
 
   const quickLinks = [
-    {
-      path: "/about",
-      display: "About",
-    },
-    {
-      path: "/#",
-      display: "Privacy Policy",
-    },
-    {
-      path: "/cars",
-      display: "Car Listing",
-    },
-    {
-      path: "/blogs",
-      display: "Blog",
-    },
-    {
-      path: "/contact",
-      display: "Contact",
-    },
+    { path: "/about", display: "About" },
+    { path: "/services", display: "Services" },
+    { path: "/contact", display: "Contact" },
   ];
-  
-  const Footer = () => {
-    const date = new Date();
-    const year = date.getFullYear();
-  
 
   return (
-    <div>
-      <footer className="footer">
+    <footer className="footer">
       <Container>
         <Row>
           <Col lg="4" md="4" sm="12">
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className="d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
+                <i class="ri-hotel-line"></i>
                   <span>
-                    Car Rental
+                    Biverse
                     <br />
-                    Service
+                    Hotel
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Our car rental service offers a hassle-free experience with a
-              variety of well-maintained vehicles at competitive rates. Whether
-              for business, travel, or daily use, we provide flexible rentals,
-              easy booking. Enjoy comfort, reliability, and
-              affordability—book your car today!
+              BiverseHotel is a luxury getaway offering elegant
+              accommodations, fine dining, and top-notch amenities. Whether for
+              business or leisure, our hotel ensures a comfortable and memorable
+              stay with exceptional service. Relax in stylish rooms, enjoy
+              gourmet cuisine, and experience world-class hospitality. Book your
+              stay today!
             </p>
           </Col>
 
@@ -91,11 +69,13 @@ export default function Footer() {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Subscribe our newsletter</p>
+              <p className="section__description">
+                Subscribe to our newsletter
+              </p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
-                  <i class="ri-send-plane-line"></i>
+                  <i className="ri-send-plane-line"></i>
                 </span>
               </div>
             </div>
@@ -104,7 +84,7 @@ export default function Footer() {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>CopyRight {year}, Developed by
+              <i className="ri-copyright-line"></i> Copyright {year} , Developed by
                 Ashan Ekanayake. All rights reserved.
               </p>
             </div>
@@ -112,7 +92,5 @@ export default function Footer() {
         </Row>
       </Container>
     </footer>
-    </div>
-  )
-}
+  );
 }
