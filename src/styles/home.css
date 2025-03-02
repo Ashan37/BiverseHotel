@@ -1,0 +1,23 @@
+.home{
+    background: rgb(255, 255, 255);
+}
+.top{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.top__head h1{
+   font-weight: 800;
+   font-family: poppins;
+   font-size: 2.6rem;
+   color: rgb(3, 2, 59);
+}
+.top__content{
+    margin-top: 15px;
+}
+
+.top__content p{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgb(21, 21, 52);
+}

@@ -1,65 +1,49 @@
-
-.footer{
-    background:#1a1a1b;
-    padding-top: 50px;
-    padding-bottom: 15px;
+.footer {
+    position: relative;
+    background: #1a1a1b;
+    padding: 50px 0;
+    width: 100%;
 }
 
-.footer__logo i{
+.footer__logo i, .footer__logo span {
     color: #fff;
-    font-weight: 400;
 }
-.footer__logo span{
-    color: #fff;
-    font-weight:500;
-}
-.footer__logo-content{
-    color: #fff;
-    margin-top: 15px;
-    line-height: 30px;
-}
-.quick__link{
-    border: none;
-    background: transparent !important;
-}
-.quick__link a{
-    color:#fff;
+
+.no-underline {
     text-decoration: none;
-    font-weight: 300;
-    transition: 0.3s;
 }
-.quick__link a:hover{
+
+.quick__link{
+    background: none;
+    border: none;
+}
+
+.footer__logo-content,
+.quick__link a,
+.office__info,
+.section__description {
+    color: #fff;
+}
+
+.quick__link a:hover {
     color: #f9a826;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 50px;
+    background: #fff;
+}
+
+.newsletter input {
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
 }
 .footer__link-title{
     color: #fff;
 }
-.office__info{
-    color: #fff;
-    font-weight: 300;
 
-}
-.newsletter{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 12px;
-    border: 1px solid #2727282f;
-    border-radius: 50px;
-    background:#ffffffe9;
-}
-.newsletter input{
-    background: transparent;
-    color: #fff; 
-    border: none;
-    outline: none;
-}
-.newsletter span i{
-    color:#fff;
-}
-.section__description{
-    color: #e1e0e0;
-}
-.footer__bottom{
-    border-top: 1px solid #7c8a972f;
-}
