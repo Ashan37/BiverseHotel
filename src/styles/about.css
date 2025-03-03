@@ -1,0 +1,11 @@
+.content-photo{
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+}

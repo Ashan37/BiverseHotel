@@ -6,5 +6,6 @@ export default function AboutHero() {
     <div className="herosection">
       <h1 className="head">Biverse<br/>Hotel</h1>
     </div>
+  
   )
 }
