@@ -10,9 +10,25 @@
    font-family: poppins;
    font-size: 2.6rem;
    color: rgb(3, 2, 59);
+   opacity: 0;
+   transform: translateY(20px);
+   animation: fadeIn 1.5s ease-in-out forwards;
 }
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 .top__content{
     margin-top: 15px;
+    
 }
 
 .top__content p{
@@ -20,4 +36,40 @@
     font-weight: 400;
     font-size: 1.1rem;
     color: rgb(21, 21, 52);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;   
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.map{
+    margin-top: 20px;
+}
+.button-1{
+    margin-bottom: 100px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+        
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.content{
+    margin-bottom: 10px;
 }

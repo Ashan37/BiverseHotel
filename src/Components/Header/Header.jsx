@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'remixicon/fonts/remixicon.css';
 
-function NavScrollExample() {
+function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg='dark' data-bs-theme="dark">
       <Container fluid>
@@ -44,4 +44,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default Header;
