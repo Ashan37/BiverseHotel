@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
 import Footer from "../Components/Footer/Footer";
 import AboutHero from "../Components/heroslider/AboutHero";
+import "../styles/about.css";
 
 export default function About() {
   return (
@@ -21,7 +22,7 @@ export default function About() {
       <Container className="content">
         <Row>
           <Col lg="6" md="12" sm="12">
-            <h1>About Biverse Hotel</h1>
+            <h1 className="about-head">About Biverse Hotel</h1>
             <p className="para">
               At Biverse Hotel, we offer more than just a stay we provide an
               experience that celebrates inclusivity, comfort, and world-class
