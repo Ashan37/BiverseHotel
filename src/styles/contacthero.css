@@ -1,0 +1,44 @@
+
+.head {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 85%;
+    text-align: center;
+  
+  }
+  .herosection{
+      background-image: url("/src/assets/about/abouthero.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  @keyframes fadeIn{
+      from{
+          opacity: 0%;
+          transform: translateY(30px);
+          
+      }
+      to{
+          opacity: 100%;
+          transform: translateY(0);
+      }
+  }
+  @media (max-width: 768px) {
+      .herosection {
+        height: 300px;
+        padding: 10px;
+        background-position: center center;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .herosection {
+        height: 250px;
+        padding: 5px;
+      }
+    }
+  

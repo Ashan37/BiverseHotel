@@ -18,14 +18,14 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About US</Nav.Link>
-            <Nav.Link href="#action3">Contacts</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/about">About US</Nav.Link>
+            <Nav.Link href="/contact">Contacts</Nav.Link>
 
             <NavDropdown title="Show" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Dining</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Wedding & Events</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Offers</NavDropdown.Item>
+              <NavDropdown.Item href="/dining">Dining</NavDropdown.Item>
+              <NavDropdown.Item href="/wedding&events">Wedding & Events</NavDropdown.Item>
+              <NavDropdown.Item href="/offers">Offers</NavDropdown.Item>
             </NavDropdown>
   
           </Nav>
