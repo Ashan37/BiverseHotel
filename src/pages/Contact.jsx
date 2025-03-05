@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
 import Footer from "../Components/Footer/Footer";
 import ContactHero from "../Components/heroslider/ContacHero";
+import "../styles/contact.css";
 
 export default function Contact() {
   return (
@@ -18,8 +19,8 @@ export default function Contact() {
       </Container-fluid>
 
       <Container className="content">
-        <Row>
-          <Col lg="6" md="12" sm="12">
+        <Row className="px-5">
+          <Col lg="6" md="12" sm="12" className="px-5">
             <h1 className="about-head">Contact Us</h1>
             <p className="para">
               We'd love to hear from you! Wheher you have a question about
@@ -29,26 +30,45 @@ export default function Contact() {
             </p>
           </Col>
 
-        {/*  <Col className="content-photo" lg="6" md="12" sm="12">
-            <img
-              src="/src/assets/about/content.jpg"
-              alt="Description"
-              width="100%"
-            />
-          </Col>*/} 
         </Row>
       </Container>
 
       <Container>
-        <Row>
-          <Col lg="4" md="6" sm="12">
+        <Row className="justify-content-center px-5">
+          <Col lg="4" md="6" sm="12" className="contacts px-5">
             <h1>The Biverse Hotel</h1>
-           <p> <i class="ri-hotel-line"></i>
+            <p>
+              <i class="ri-hotel-line"></i>
               221/3, Barmen Road, Colombo 10, Sri Lanka
             </p>
-            <p><i class="ri-phone-fill"></i>Phone: 011-0897631</p>
-            <p><i class="ri-mail-fill"></i>Email: biversehotel@gmail.com</p>
+            <p>
+              <i class="ri-phone-fill"></i>Phone: 011-0897631
+            </p>
+            <p>
+              <i class="ri-mail-fill"></i>Email: biversehotel@gmail.com
+            </p>
           </Col>
+
+          <Col lg="4" md="6" sm="12" className="contacts px-5">
+            <h1>For Food & Beverage</h1>
+            <p>
+              <i class="ri-phone-fill"></i>Phone: 011-4545999
+            </p>
+            <p>
+              <i class="ri-mail-fill"></i>Email: biversefoodandbeverage@gmail.com
+            </p>
+          </Col>
+
+          <Col lg="4" md="6" sm="12" className="contacts px-5">
+            <h1>For Events </h1>
+            <p>
+              <i class="ri-phone-fill"></i>Phone: 011-5454666
+            </p>
+            <p>
+              <i class="ri-mail-fill"></i>Email: biverseevents@gmail.com
+            </p>
+          </Col>
+
         </Row>
       </Container>
 
