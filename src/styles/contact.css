@@ -1,6 +1,43 @@
+.contactpage{
+    background: rgb(238, 238, 238);
+}
 .about-head{
     font-size: 1.6rem;
+    font-family: poppins;
+}
+.para{
+    font-size: 1.1rem;
+    font-family: poppins;
+}
+.middle_content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.middle_content__contacts{
+    margin-top: 40px;
 }
 .contacts h1{
     font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-family: poppins;
+    color: rgb(0, 0, 0);
+}
+.contacts h4{
+    font-size:1.3rem;
+    opacity:80%;
+    margin-top: 25px;
+    font-family: poppins;
+
+}
+.contact_content{
+    margin-top:50px;
+    line-height: 1.6rem;
+    font-family: poppins;
+
+}
+.item{
+    margin-top: 20px;
+}
+.map{
+    margin-top: 100px;
 }
