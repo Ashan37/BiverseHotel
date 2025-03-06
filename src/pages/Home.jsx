@@ -62,38 +62,38 @@ export default function Home() {
         <Container className="middle">
           <Row className="middle_content justify-content-center align-items-center">
             <Col>
-            <div className="d-flex justify-content-center">
+            <div className="middle_content_photos d-flex justify-content-center">
               <img
                 src="/src/assets/home/dining1.jpg"
                 width="240px"
                 height="300px"
               />
               </div>
-              <div className="d-flex justify-content-center">
+              <div className="middle_content_description d-flex justify-content-center">
                 <h5>Dining</h5>
               </div>
             </Col>
             <Col>
-            <div className="d-flex justify-content-center">
+            <div className="middle_content_photos d-flex justify-content-center">
               <img
                 src="/src/assets/home/dining1.jpg"
                 width="240px"
                 height="300px"
               />
               </div>
-              <div className="d-flex justify-content-center">
+              <div className="middle_content_description d-flex justify-content-center">
                 <h5>Dining</h5>
               </div>
             </Col>
             <Col>
-            <div className="d-flex justify-content-center">
+            <div className="middle_content_photos d-flex justify-content-center">
               <img
                 src="/src/assets/home/dining1.jpg"
                 width="240px"
                 height="300px"
               />
               </div>
-              <div className="d-flex justify-content-center">
+              <div className="middle_content_description d-flex justify-content-center">
                 <h5>Dining</h5>
               </div>
             </Col>
