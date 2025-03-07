@@ -61,7 +61,7 @@ export default function Home() {
         </Container>
         <Container className="middle">
           <Row className="middle_content justify-content-center align-items-center">
-            <Col>
+            <Col lg='4' md='6' sm='6'>
             <div className="middle_content_photos d-flex justify-content-center">
               <img
                 src="/src/assets/home/dining1.jpg"
@@ -73,28 +73,28 @@ export default function Home() {
                 <h5>Dining</h5>
               </div>
             </Col>
-            <Col>
+            <Col lg='4' md='6' sm='6'>
             <div className="middle_content_photos d-flex justify-content-center">
               <img
-                src="/src/assets/home/dining1.jpg"
+                src="/src/assets/home/event1.jpg"
                 width="240px"
                 height="300px"
               />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-                <h5>Dining</h5>
+                <h5>Events</h5>
               </div>
             </Col>
-            <Col>
+            <Col lg='4' md='6' sm='6'>
             <div className="middle_content_photos d-flex justify-content-center">
               <img
-                src="/src/assets/home/dining1.jpg"
+                src="/src/assets/home/offers1.jpg"
                 width="240px"
                 height="300px"
               />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-                <h5>Dining</h5>
+                <h5>Offers</h5>
               </div>
             </Col>
           </Row>
