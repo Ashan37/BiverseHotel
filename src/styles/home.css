@@ -55,11 +55,20 @@
     margin-bottom: 100px;
 }
 
-.middle_content_description h5{
-    font-family: poppins;
-    font-size: 1.6rem;
-    margin-top: 10px;
-}
+.middle_content_description h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  .middle_content_description h5{
+    text-decoration: none;
+  
+  }
+  .middle_content_description a:hover {
+    color: #ff6600; 
+  }
 
 
 

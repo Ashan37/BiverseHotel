@@ -10,7 +10,7 @@ function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" bg='dark' data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand href="#"><i class="ri-hotel-line"></i>BiverseHotel</Navbar.Brand>
+        <Navbar.Brand href="/home"><i class="ri-hotel-line"></i>BiverseHotel</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -24,7 +24,7 @@ function Header() {
 
             <NavDropdown title="Show" id="navbarScrollingDropdown">
               <NavDropdown.Item href="/dining">Dining</NavDropdown.Item>
-              <NavDropdown.Item href="/wedding&events">Wedding & Events</NavDropdown.Item>
+              <NavDropdown.Item href="/events">Events</NavDropdown.Item>
               <NavDropdown.Item href="/offers">Offers</NavDropdown.Item>
             </NavDropdown>
   

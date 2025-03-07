@@ -70,7 +70,7 @@ export default function Home() {
               />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-                <h5>Dining</h5>
+                <Link to="/dining"><h5>Dining</h5></Link>
               </div>
             </Col>
             <Col lg='4' md='6' sm='6'>
@@ -82,7 +82,7 @@ export default function Home() {
               />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-                <h5>Events</h5>
+                <Link to="/events"><h5>Events</h5></Link>
               </div>
             </Col>
             <Col lg='4' md='6' sm='6'>
@@ -94,7 +94,7 @@ export default function Home() {
               />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-                <h5>Offers</h5>
+              <Link to="/events"><h5>Offers</h5></Link>
               </div>
             </Col>
           </Row>
