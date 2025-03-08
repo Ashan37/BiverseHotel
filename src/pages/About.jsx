@@ -21,14 +21,19 @@ export default function About() {
 
       <Container className="content">
         <Row>
-          <Col lg="6" md="12" sm="12">
-            <h1 className="about-head">About Biverse Hotel</h1>
+          <div className="about-head d-flex justify-content-center">
+            <h1>About Biverse Hotel</h1>
+          </div>
+          <Col lg="4" md="12" sm="12">
             <p className="para">
               At Biverse Hotel, we offer more than just a stay we provide an
               experience that celebrates inclusivity, comfort, and world-class
               hospitality. Located in Nugegoda, our hotel blends modern elegance
               with cultural richness, ensuring every guest feels at home.
             </p>
+          </Col>
+
+          <Col lg="4" md="12" sm="12">
             <p className="para">
               Enjoy luxurious accommodations, exceptional dining experiences,
               and top-tier amenities, including a spa, fitness center, and
@@ -36,6 +41,8 @@ export default function About() {
               personalized service and welcoming atmosphere make your stay truly
               memorable.
             </p>
+          </Col>
+          <Col lg="4" md="12" sm="12">
             <p className="para">
               With a strong commitment to sustainability and diversity, Biverse
               Hotel embraces guests from all backgrounds, creating a space where
@@ -43,10 +50,14 @@ export default function About() {
               comfort, culture, and connection.
             </p>
           </Col>
+        </Row>
 
-          <Col className="content-photo" lg='6' md='12' sm='12'>
-          <img src="/src/assets/about/content.jpg" alt="Description" width="100%" />
-          </Col>
+        <Row >
+          
+            <Col className="content-photo d-flex justify-content-center" lg="12" md="12" sm="12">
+              <img src="/src/assets/about/content.jpg" alt="Description" />
+            </Col>
+          
         </Row>
       </Container>
 

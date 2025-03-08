@@ -54,6 +54,11 @@
 .middle{
     margin-bottom: 100px;
 }
+.middle_content_photos img{
+    border: 5px solid #e2dddd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
 .middle_content_description h5 {
     font-size: 18px;
