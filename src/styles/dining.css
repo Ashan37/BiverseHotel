@@ -1,0 +1,20 @@
+.dining-head{
+    font-size: 1.9rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0%;
+        transform: translateY(30px);
+        
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+.para{
+    font-size: 0.9rem;
+}
