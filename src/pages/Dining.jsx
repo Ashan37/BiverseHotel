@@ -37,8 +37,8 @@ export default function Dining() {
           </Col>
         </Row>
       </Container>
-      <Container>
-      <Row className="g-3"> {/* Adds spacing between columns */}
+      <Container className="middle_content">
+      <Row className="middle_content_top g-3"> {/* Adds spacing between columns */}
         {
         [
           {src:"src/assets/dining/inhotel.jpg", name:"Tango Hotel"},
@@ -48,18 +48,18 @@ export default function Dining() {
         ]
         .map((place, index) => ( // Adjust number of images
           <Col key={index} className="px-2" lg="4" md="12" sm="12" xs="12">
-            <div className="content_top">
-              <div className="content_top_photo d-flex justify-content-center">
+            <div className="mid_content_top">
+              <div className="middle_content_top_photo d-flex justify-content-center">
                 <img 
                   src={place.src}
                   className="img-fluid rounded" 
                   alt={place.name}
-                  style={{height:"600px",}}
+                  style={{height:"500px",width:"350px"}}
                  
                 />
               </div>
-              <div className="content_top_description d-flex justify-content-center">
-                <h1 style={{fontSize:"1.5rem"}}>{place.name}</h1>
+              <div className="middle_content_top_description d-flex justify-content-center">
+                <h1>{place.name}</h1>
               </div>
             </div>
           </Col>

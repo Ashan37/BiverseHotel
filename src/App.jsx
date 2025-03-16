@@ -5,6 +5,7 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Dining from './pages/Dining'
+import Events from './pages/Events'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/dining' element={<Dining/>}/>
+        <Route path='/events' element={<Events/>}/>
       </Routes>
       </BrowserRouter>
     </>
