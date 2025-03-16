@@ -38,7 +38,7 @@ export default function Dining() {
         </Row>
       </Container>
       <Container className="middle_content">
-      <Row className="middle_content_top g-3"> {/* Adds spacing between columns */}
+      <Row className="middle_content_top g-3"> 
         {
         [
           {src:"src/assets/dining/inhotel.jpg", name:"Tango Hotel"},
@@ -46,7 +46,7 @@ export default function Dining() {
           {src:"src/assets/dining/bar.jpg", name:"Hest  Bar"}
           
         ]
-        .map((place, index) => ( // Adjust number of images
+        .map((place, index) => ( 
           <Col key={index} className="px-2" lg="4" md="12" sm="12" xs="12">
             <div className="mid_content_top">
               <div className="middle_content_top_photo d-flex justify-content-center">
