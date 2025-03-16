@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
+import EventsHero from '../Components/heroslider/EventsHero'
 
 export default function Events() {
   return (
@@ -10,7 +11,7 @@ export default function Events() {
       </Container-fluid>
 
       <Container-fluid>
-        
+        <EventsHero />
       </Container-fluid>
       <Container-fluid>
               <Footer />
