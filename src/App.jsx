@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Dining from './pages/Dining'
 import Events from './pages/Events'
+import Offers from './pages/Offers'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/dining' element={<Dining/>}/>
         <Route path='/events' element={<Events/>}/>
+        <Route path='/offers' element={<Offers/>}/>
       </Routes>
       </BrowserRouter>
     </>
