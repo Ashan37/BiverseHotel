@@ -1,9 +1,10 @@
 import React from 'react'
+import '/src/styles/offershero.css'
 
 export default function OffersHero() {
   return (
-    <div>
-      <h1>4444</h1>
-    </div>
+    <div className="herosection">
+  </div>
+
   )
 }

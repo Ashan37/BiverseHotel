@@ -1,0 +1,33 @@
+.dining-head{
+    font-size: 1.9rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0%;
+        transform: translateY(30px);
+        
+    }
+    to{
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+.para{
+    font-size: 0.9rem;
+}
+.middle_content_top_photo img{
+    cursor:pointer;
+    border: 5px solid #e2dddd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.middle_content_top_description h1{
+    font-size: 1.2rem;
+    font-family: poppins;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
