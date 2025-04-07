@@ -98,6 +98,23 @@ export default function Home() {
           </Row>
         </Container>
 
+        <Container>
+          <Row>
+            <h1>Learn More About Biverse Hotel</h1>
+            <Col>
+            <h4>
+              How do I get to Biverse Hotel?
+            </h4>
+            </Col>
+            <Col>
+            <h4>What are the popular places near to Biverse Hotel?</h4>
+            </Col>
+            <Col>
+            <h4>What popular shopping places are close to Biverse Hotel?</h4>
+            </Col>
+          </Row>
+        </Container>
+
         <iframe
           width="100%"
           height="400"
