@@ -100,3 +100,11 @@
 .content{
     margin-bottom: 10px;
 }
+.bottom_section{
+    background: rgb(233, 232, 232);
+    border-radius: 10px;
+}
+.bottom_section h1{
+    color: #01074b;
+    font-size: 1.7rem;
+}

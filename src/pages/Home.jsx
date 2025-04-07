@@ -98,19 +98,19 @@ export default function Home() {
           </Row>
         </Container>
 
-        <Container>
+        <Container className="bottom_section">
           <Row>
             <h1>Learn More About Biverse Hotel</h1>
-            <Col>
-            <h4>
+            <Col lg='4' md='6' sm='12'>
+            <h6>
               How do I get to Biverse Hotel?
-            </h4>
+            </h6>
             </Col>
-            <Col>
-            <h4>What are the popular places near to Biverse Hotel?</h4>
+            <Col lg='4' md='6' sm='12'>
+            <h6>What are the popular places near to Biverse Hotel?</h6>
             </Col>
-            <Col>
-            <h4>What popular shopping places are close to Biverse Hotel?</h4>
+            <Col lg='4' md='6' sm='12'>
+            <h6>What popular shopping places are close to Biverse Hotel?</h6>
             </Col>
           </Row>
         </Container>
