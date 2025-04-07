@@ -66,13 +66,13 @@
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  .middle_content_description h5{
-    text-decoration: none;
-  
-  }
+
   .middle_content_description a:hover {
     color: #ff6600; 
+   
   }
 
 

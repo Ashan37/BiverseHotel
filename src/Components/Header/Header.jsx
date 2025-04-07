@@ -19,7 +19,7 @@ function Header() {
             navbarScroll
           >
             <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/about">About US</Nav.Link>
+            <Nav.Link href="/about">About Us</Nav.Link>
             <Nav.Link href="/contact">Contacts</Nav.Link>
 
             <NavDropdown title="Show" id="navbarScrollingDropdown">

@@ -3,12 +3,13 @@ import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import EventsHero from "../Components/heroslider/EventsHero";
 import {Container,Row,Col} from 'react-bootstrap';
+import "../styles/events.css";
 
 export default function Events() {
   return (
     <div>
       <Container-fluid>
-        <Header />
+        <Header/>
       </Container-fluid>
 
       <Container-fluid>
