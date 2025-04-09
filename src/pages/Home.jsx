@@ -8,6 +8,7 @@ import Button from "react-bootstrap/Button";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import HeroSlider from "../Components/heroslider/Heroslider";
+import Accordion from 'react-bootstrap/Accordion';
 
 export default function Home() {
   return (
@@ -100,18 +101,45 @@ export default function Home() {
 
         <Container className="bottom_section">
           <Row>
-            <h1>Learn More About Biverse Hotel</h1>
-            <Col lg='4' md='6' sm='12'>
-            <h6>
-              How do I get to Biverse Hotel?
-            </h6>
-            </Col>
-            <Col lg='4' md='6' sm='12'>
-            <h6>What are the popular places near to Biverse Hotel?</h6>
-            </Col>
-            <Col lg='4' md='6' sm='12'>
-            <h6>What popular shopping places are close to Biverse Hotel?</h6>
-            </Col>
+            <h1 className="d-flex justify-content-center">Learn More About Biverse Hotel</h1>
+            <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Accordion Item #2</Accordion.Header>
+        <Accordion.Body>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
           </Row>
         </Container>
 
