@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import HeroSlider from "../Components/heroslider/Heroslider";
-import Accordion from 'react-bootstrap/Accordion';
+import Accordion from "react-bootstrap/Accordion";
 
 export default function Home() {
   return (
@@ -55,45 +55,49 @@ export default function Home() {
               </Link>
             </Col>
           </Row>
-
-          
         </Container>
         <Container className="middle">
           <Row className="middle_content justify-content-center align-items-center">
-            <Col lg='4' md='6' sm='6'>
-            <div className="middle_content_photos d-flex justify-content-center">
-              <img
-                src="/src/assets/home/dining1.jpg"
-                width="240px"
-                height="300px"
-              />
+            <Col lg="4" md="6" sm="6">
+              <div className="middle_content_photos d-flex justify-content-center">
+                <img
+                  src="/src/assets/home/dining1.jpg"
+                  width="240px"
+                  height="300px"
+                />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-                <Link to="/dining" className="text-decoration-none"><h5>Dining</h5></Link>
+                <Link to="/dining" className="text-decoration-none">
+                  <h5>Dining</h5>
+                </Link>
               </div>
             </Col>
-            <Col lg='4' md='6' sm='6'>
-            <div className="middle_content_photos d-flex justify-content-center">
-              <img
-                src="/src/assets/home/event1.jpg"
-                width="240px"
-                height="300px"
-              />
+            <Col lg="4" md="6" sm="6">
+              <div className="middle_content_photos d-flex justify-content-center">
+                <img
+                  src="/src/assets/home/event1.jpg"
+                  width="240px"
+                  height="300px"
+                />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-                <Link to="/events" className="text-decoration-none"><h5>Events</h5></Link>
+                <Link to="/events" className="text-decoration-none">
+                  <h5>Events</h5>
+                </Link>
               </div>
             </Col>
-            <Col lg='4' md='6' sm='6'>
-            <div className="middle_content_photos d-flex justify-content-center">
-              <img
-                src="/src/assets/home/offers1.jpg"
-                width="240px"
-                height="300px"
-              />
+            <Col lg="4" md="6" sm="6">
+              <div className="middle_content_photos d-flex justify-content-center">
+                <img
+                  src="/src/assets/home/offers1.jpg"
+                  width="240px"
+                  height="300px"
+                />
               </div>
               <div className="middle_content_description d-flex justify-content-center">
-              <Link to="/events" className="text-decoration-none"><h5>Offers</h5></Link>
+                <Link to="/events" className="text-decoration-none">
+                  <h5>Offers</h5>
+                </Link>
               </div>
             </Col>
           </Row>
@@ -101,45 +105,50 @@ export default function Home() {
 
         <Container className="bottom_section">
           <Row>
-            <h1 className="d-flex justify-content-center">Learn More About Biverse Hotel</h1>
+            <h1 className="d-flex justify-content-center">
+              Learn More About Biverse Hotel
+            </h1>
             <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>
+                  How do I get to Biverse Hotel?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Biverse Hotel is easy to reach! We're conveniently located in
+                  the heart of the city, just a short drive from the airport and
+                  major transport hubs. Whether you're arriving by car, taxi, or
+                  public transit, you'll find clear signs and smooth routes
+                  leading straight to our doorstep. For detailed directions,
+                  check our map or contact our front desk — we're happy to help!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  What popular shopping places are close to Biverse Hotel?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Biverse Hotel is surrounded by some of the city's most popular
+                  shopping destinations. Just a short walk or drive away, you'll
+                  find bustling malls, trendy boutiques, and local markets
+                  offering everything from high-end fashion to unique souvenirs.
+                  Whether you're looking for designer brands or handmade crafts,
+                  there's something for every shopper near our hotel.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  What are popular tourist attractions near Biverse Hotel?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Biverse Hotel is ideally located near some of the city's top
+                  tourist attractions. Guests can easily explore iconic
+                  landmarks, cultural sites, beautiful parks, and vibrant
+                  entertainment districts—all just minutes away. Whether you're
+                  interested in history, art, nature, or nightlife, there's
+                  always something exciting to discover close to the hotel.
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
           </Row>
         </Container>
 
