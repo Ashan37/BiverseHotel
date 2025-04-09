@@ -105,6 +105,12 @@
     border-radius: 10px;
 }
 .bottom_section h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #01074b;
     font-size: 1.7rem;
+}
+.bottom_section .accordion{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }

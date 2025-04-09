@@ -108,7 +108,7 @@ export default function Home() {
             <h1 className="d-flex justify-content-center">
               Learn More About Biverse Hotel
             </h1>
-            <Accordion defaultActiveKey="0">
+            <Accordion className='accordion' defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   How do I get to Biverse Hotel?
