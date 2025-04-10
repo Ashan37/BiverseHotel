@@ -18,8 +18,15 @@
 .para{
     font-size: 0.9rem;
 }
+.mid_content_top{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.mid_content_top:hover{
+    transform: scale(1.1);
+}
 .middle_content_top_photo img{
-    cursor:pointer;
+    
     border: 5px solid #e2dddd;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -29,5 +36,5 @@
     font-family: poppins;
     margin-top: 15px;
     margin-bottom: 15px;
-    cursor: pointer;
+   
 }
