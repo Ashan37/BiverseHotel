@@ -50,6 +50,13 @@
       transform: translateY(0);
     }
 }
+.mid_content{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.mid_content:hover{
+    transform: scale(1.1);  
+}
 
 .middle{
     margin-bottom: 100px;
@@ -58,6 +65,7 @@
     border: 5px solid #e2dddd;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
 }
 
 .middle_content_description h5 {

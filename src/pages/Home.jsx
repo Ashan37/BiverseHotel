@@ -59,44 +59,50 @@ export default function Home() {
         <Container className="middle">
           <Row className="middle_content justify-content-center align-items-center">
             <Col lg="4" md="6" sm="6">
-              <div className="middle_content_photos d-flex justify-content-center">
-                <img
-                  src="/src/assets/home/dining1.jpg"
-                  width="240px"
-                  height="300px"
-                />
-              </div>
-              <div className="middle_content_description d-flex justify-content-center">
+              <div className="mid_content">
                 <Link to="/dining" className="text-decoration-none">
-                  <h5>Dining</h5>
+                  <div className="middle_content_photos d-flex justify-content-center">
+                    <img
+                      src="/src/assets/home/dining1.jpg"
+                      width="240px"
+                      height="300px"
+                    />
+                  </div>
+                  <div className="middle_content_description d-flex justify-content-center">
+                    <h5>Dining</h5>
+                  </div>
                 </Link>
               </div>
             </Col>
             <Col lg="4" md="6" sm="6">
-              <div className="middle_content_photos d-flex justify-content-center">
-                <img
-                  src="/src/assets/home/event1.jpg"
-                  width="240px"
-                  height="300px"
-                />
-              </div>
-              <div className="middle_content_description d-flex justify-content-center">
+              <div className="mid_content">
                 <Link to="/events" className="text-decoration-none">
-                  <h5>Events</h5>
+                  <div className="middle_content_photos d-flex justify-content-center">
+                    <img
+                      src="/src/assets/home/event1.jpg"
+                      width="240px"
+                      height="300px"
+                    />
+                  </div>
+                  <div className="middle_content_description d-flex justify-content-center">
+                    <h5>Events</h5>
+                  </div>
                 </Link>
               </div>
             </Col>
             <Col lg="4" md="6" sm="6">
-              <div className="middle_content_photos d-flex justify-content-center">
-                <img
-                  src="/src/assets/home/offers1.jpg"
-                  width="240px"
-                  height="300px"
-                />
-              </div>
-              <div className="middle_content_description d-flex justify-content-center">
+              <div className="mid_content">
                 <Link to="/events" className="text-decoration-none">
-                  <h5>Offers</h5>
+                  <div className="middle_content_photos d-flex justify-content-center">
+                    <img
+                      src="/src/assets/home/offers1.jpg"
+                      width="240px"
+                      height="300px"
+                    />
+                  </div>
+                  <div className="middle_content_description d-flex justify-content-center">
+                    <h5>Offers</h5>
+                  </div>
                 </Link>
               </div>
             </Col>
@@ -108,7 +114,7 @@ export default function Home() {
             <h1 className="d-flex justify-content-center">
               Learn More About Biverse Hotel
             </h1>
-            <Accordion className='accordion' defaultActiveKey="0">
+            <Accordion className="accordion">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
                   How do I get to Biverse Hotel?
