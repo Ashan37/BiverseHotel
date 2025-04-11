@@ -8,7 +8,7 @@ import 'remixicon/fonts/remixicon.css';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" bg='dark' data-bs-theme="dark">
+    <Navbar expand="lg"   data-bs-theme='dark' style={{height:'100px',background:'black',color:'white'}}>
       <Container fluid>
         <Navbar.Brand href="/home"><i class="ri-hotel-line"></i>BiverseHotel</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
