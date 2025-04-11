@@ -109,52 +109,47 @@ export default function Home() {
           </Row>
         </Container>
 
-        <Container className="bottom_section">
-          <Row>
-            <h1 className="d-flex justify-content-center">
-              Learn More About Biverse Hotel
-            </h1>
-            <Accordion className="accordion">
-              <Accordion.Item eventKey="0">
-                <Accordion.Header>
-                  How do I get to Biverse Hotel?
-                </Accordion.Header>
-                <Accordion.Body>
-                  Biverse Hotel is easy to reach! We're conveniently located in
-                  the heart of the city, just a short drive from the airport and
-                  major transport hubs. Whether you're arriving by car, taxi, or
-                  public transit, you'll find clear signs and smooth routes
-                  leading straight to our doorstep. For detailed directions,
-                  check our map or contact our front desk — we're happy to help!
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="1">
-                <Accordion.Header>
-                  What popular shopping places are close to Biverse Hotel?
-                </Accordion.Header>
-                <Accordion.Body>
-                  Biverse Hotel is surrounded by some of the city's most popular
-                  shopping destinations. Just a short walk or drive away, you'll
-                  find bustling malls, trendy boutiques, and local markets
-                  offering everything from high-end fashion to unique souvenirs.
-                  Whether you're looking for designer brands or handmade crafts,
-                  there's something for every shopper near our hotel.
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>
-                  What are popular tourist attractions near Biverse Hotel?
-                </Accordion.Header>
-                <Accordion.Body>
-                  Biverse Hotel is ideally located near some of the city's top
-                  tourist attractions. Guests can easily explore iconic
-                  landmarks, cultural sites, beautiful parks, and vibrant
-                  entertainment districts—all just minutes away. Whether you're
-                  interested in history, art, nature, or nightlife, there's
-                  always something exciting to discover close to the hotel.
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
+        <Container fluid className="bottom_section py-4 px-3">
+          <Row className="justify-content-center text-center">
+            <Col xs={12} md={10} lg={8}>
+              <h1>Learn More About Biverse Hotel</h1>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col xs={12} md={10} lg={8}>
+              <Accordion className="accordion">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>
+                    How do I get to Biverse Hotel?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Biverse Hotel is easy to reach! We're conveniently located
+                    in the heart of the city, just a short drive from the
+                    airport and major transport hubs...
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>
+                    What popular shopping places are close to Biverse Hotel?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Biverse Hotel is surrounded by some of the city's most
+                    popular shopping destinations...
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey="2">
+                  <Accordion.Header>
+                    What are popular tourist attractions near Biverse Hotel?
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Biverse Hotel is ideally located near some of the city's top
+                    tourist attractions...
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </Col>
           </Row>
         </Container>
 
